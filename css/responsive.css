@@ -39,8 +39,47 @@
       left: -100vw;
     }
     .nav {
-      width: 100%;
+      /* width: 100%; */
       position: absolute;
+    }
+
+    .card{
+      position: unset;
+    }
+    .hamburger{
+      display: block;
+      
+    }
+
+    .log-out{
+      display: none;
+    }
+
+
+    .main-area{
+      padding: 35px 8px 61px;
+      
+    }
+
+    .outer-box{
+      padding: 13px;
+    }
+
+    .main-dess-1 {
+      padding-bottom: 46px;
+    }
+    .action p{
+      margin-bottom: 42px;
+    margin-top: 25px;
+    }
+
+    .packages-download span {
+      font-size: 13px;
+    }
+
+
+    .user p{
+      font-size: 14px;
     }
     .navclose {
       left: 00px;

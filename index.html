@@ -23,7 +23,6 @@
         <img
           src="/img/42gears_company_logo.svg"
           class="icn menuicn"
-          id="menuicn"
           alt="menu-icon"
         />
       </div>
@@ -45,34 +44,61 @@
                 </summary>
                 <ul>
                     <li>
-                        <p>
-                            <span class="block bold">Jane Doe</span>
-                            <span class="block italic">jane@example.com</span>
-                        </p>
+                        <div class="user-profile">
+                          <div class="user-icon">
+                            <i class="fa-solid fa-user"></i>
+                          </div>
+                          <div class="user-desc">
+                            <p>View Profile</p>
+                          </div>
+                        </div>
                     </li>
                    
                     <li>
-                        <a href="#">
-                            <span class="material-symbols-outlined">account_circle</span> Account
-                        </a>
+                      <div class="user-profile">
+                        <div class="user-icon">
+                          <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="user-desc">
+                          <p>Notifications</p>
+                        </div>
+                      </div>
+                  </li>
+
+
+                     <li>
+                        <div class="user-profile">
+                          <div class="user-icon">
+                            <i class="fa-solid fa-gear"></i>
+                          </div>
+                          <div class="user-desc">
+                            <p>Switch Account</p>
+                          </div>
+                        </div>
                     </li>
+
                     <li>
-                        <a href="#">
-                            <span class="material-symbols-outlined">settings</span> Settings
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="material-symbols-outlined">help</span> Help
-                        </a>
-                    </li>
+                      <div class="user-profile">
+                        <div class="user-icon">
+                          <i class="fa-solid fa-circle-question"></i>
+                        </div>
+                        <div class="user-desc">
+                          <p>Help</p>
+                        </div>
+                      </div>
+                  </li>
                    
                     <li class="divider"></li>
                     <li>
-                        <a href="#">
-                            <span class="material-symbols-outlined">logout</span> Logout
-                        </a>
-                    </li>
+                      <div class="user-profile">
+                        <div class="user-icon">
+                          <i class="fa-solid fa-right-from-bracket"></i>
+                        </div>
+                        <div class="user-desc">
+                          <p>Logout</p>
+                        </div>
+                      </div>
+                  </li>
                 </ul>
             </details>
         </div>
@@ -81,6 +107,10 @@
         <span>Logout</span>
         <img src="/img/right-arrow.png" alt="">
       </div>
+
+      <div class="hamburger">
+                      <i class="fa-solid fa-bars menuicn" style="color: #ffffff;"></i>
+                    </div>
     </div>
 
       
@@ -120,29 +150,109 @@
       </div>
       <div class="main">
         <div class="main-area">
-       <p>TestProject</p>
+       <p class="main-heading">TestProject</p>
+       <div class="outer-box">
         <div class="box-container-set-1">
             <div class="box-1">
                 <div class="card">
                     <div class="card-hearder">
                         <div class="logo-name">
-                            <div class="card-logo">
+                            <div class="card-logo-1">
                                 <img src="/img/teacher.png" alt="">
                             </div>
                             <div class="user">
-                                <p>User:Sayedameen_Pro</p>
+                                <p>User : Sayedameen_Pro</p>
                             </div>
                         </div>
                        
                         <div class="dropdown">
-                            <div class="drop-nav">
-                                <p>...</p>
-                               
+                          <div class="dropdown-container">
+                            <details class="dropdown left">
+                                <summary>
+                                    <span class="three-dots"></span>
+                                </summary>
+                                <ul>
+                                    <li>
+                                        <div class="share-project">
+                                          <div class="icon">
+                                            <i class="fa-solid fa-share-nodes" style="color: #201aa4;"></i>
+                                          </div>
+                                          <div class="project-name">
+                                            <p>Share Project</p>
+                                          </div>
+                                        </div>
+                                    </li>
+
+                                    
+                                    <li>
+                                      <div class="share-project">
+                                        <div class="icon">
+                                          <i class="fa-regular fa-copy" style="color: #204aa1;"></i>
+                                        </div>
+                                        <div class="project-name">
+                                          <p>Copy Project</p>
+                                        </div>
+                                      </div>
+                                  </li>
+
+
+                                   
+                                  <li>
+                                    <div class="share-project">
+                                      <div class="icon-2">
+                                        <i class="fa-solid fa-arrows-rotate" style="color: #35cc87;"></i>
+                                      </div>
+                                      <div class="project-name">
+                                        <p>Refresh&nbsp</p>
+                                      </div>
+                                    </div>
+                                </li>
+
+
+                                <li>
+                                  <div class="share-project">
+                                    <div class="icon">
+                                      <i class="fa-solid fa-right-to-bracket" style="color: #201aa4;"></i>
+                                    </div>
+                                    <div class="project-name">
+                                      <p>Logs</p>
+                                    </div>
+                                  </div>
+                              </li>
+                                   
+                                   
+                              
+
+                            <li>
+                              <div class="share-project">
+                                <div class="icon">
+                                  <i class="fa-regular fa-pen-to-square" style="color: #201aa4;"></i>
+                                </div>
+                                <div class="project-name">
+                                  <p>Edit</p>
+                                </div>
+                              </div>
+                          </li>
+
+
+                          <li>
+                            <div class="share-project">
+                              <div class="icon-1">
+                                <i class="fa-solid fa-trash-can" style="color: #e04d4d;"></i>
+                              </div>
+                              <div class="project-name">
+                                <p>Delete</p>
+                              </div>
                             </div>
+                        </li>
+
+                                </ul>
+                            </details>
+                        </div>
                         </div>
                     </div>
                     <div class="card-body">
-                        <div class="action">
+                        <div class="action border-partation">
                             <p><i class="fa-regular fa-circle-dot" style="color: #35cc87;"></i> Running</p>
                             <p><i class="fa-regular fa-clock"></i> 3.1Hrs</p>
                             <hr class="horizontal">
@@ -162,19 +272,500 @@
                         </div>
                         <div class="description">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ducimus enim corrupti </p>
+                            <div class="details">
+                              <a href="">Details <i class="fa-solid fa-chevron-right" style="color: #35cc87;"></i></a>
+                            </div>
                             <div class="partation">
-                                h
+                               <div class="end-box-1">
+                                
+                               </div>
+                               <div class="end-box-2">
+                                
+                               </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="box-1">2</div>
+            <div class="box-2">
+              <div class="card">
+                <div class="card-hearder">
+                    <div class="logo-name">
+                        <div class="card-logo-1">
+                            <img src="/img/teacher.png" alt="">
+                        </div>
+                        <div class="user">
+                            <p>User : Sayedameen_Pro</p>
+                        </div>
+                    </div>
+                   
+                    <div class="dropdown">
+                      <div class="dropdown-container">
+                        <details class="dropdown left">
+                            <summary>
+                                <span class="three-dots"></span>
+                            </summary>
+                            <ul>
+                                <li>
+                                    <div class="share-project">
+                                      <div class="icon">
+                                        <i class="fa-solid fa-share-nodes" style="color: #201aa4;"></i>
+                                      </div>
+                                      <div class="project-name">
+                                        <p>Share Project</p>
+                                      </div>
+                                    </div>
+                                </li>
+
+                                
+                                <li>
+                                  <div class="share-project">
+                                    <div class="icon">
+                                      <i class="fa-regular fa-copy" style="color: #204aa1;"></i>
+                                    </div>
+                                    <div class="project-name">
+                                      <p>Copy Project</p>
+                                    </div>
+                                  </div>
+                              </li>
+
+
+                               
+                              <li>
+                                <div class="share-project">
+                                  <div class="icon-2">
+                                    <i class="fa-solid fa-arrows-rotate" style="color: #35cc87;"></i>
+                                  </div>
+                                  <div class="project-name">
+                                    <p>Refresh&nbsp</p>
+                                  </div>
+                                </div>
+                            </li>
+
+
+                            <li>
+                              <div class="share-project">
+                                <div class="icon">
+                                  <i class="fa-solid fa-right-to-bracket" style="color: #201aa4;"></i>
+                                </div>
+                                <div class="project-name">
+                                  <p>Logs</p>
+                                </div>
+                              </div>
+                          </li>
+                               
+                               
+                          
+
+                        <li>
+                          <div class="share-project">
+                            <div class="icon">
+                              <i class="fa-regular fa-pen-to-square" style="color: #201aa4;"></i>
+                            </div>
+                            <div class="project-name">
+                              <p>Edit</p>
+                            </div>
+                          </div>
+                      </li>
+
+
+                      <li>
+                        <div class="share-project">
+                          <div class="icon-1">
+                            <i class="fa-solid fa-trash-can" style="color: #e04d4d;"></i>
+                          </div>
+                          <div class="project-name">
+                            <p>Delete</p>
+                          </div>
+                        </div>
+                    </li>
+
+                            </ul>
+                        </details>
+                    </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="action ">
+                        <p><i class="fa-regular fa-circle-dot" style="color: #35cc87;"></i> Running</p>
+                        <p><i class="fa-regular fa-clock"></i> 3.1Hrs</p>
+                         <hr class="horizontal">
+                        <div class="action-btn">
+                          <div class="play">
+                              <div class="play-border">
+                                  <i class="fa-solid fa-forward-step" style="color: #35cc87;"></i>
+                              </div>
+                              
+                          </div>
+                          <div class="stop">
+                              <div class="stop-border">
+                              <i class="fa-solid fa-stop" style="color: #f43131;"></i>
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+                    
+                    <div class="description">
+                      <div class="main-dess">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ducimus enim corrupti </p>
+                        <div class="details">
+                          <a href="">Details <i class="fa-solid fa-chevron-right" style="color: #35cc87;"></i></a>
+                        </div>
+                      </div>
+                        <div class="partation">
+                           <div class="end-box-1">
+                            
+                           </div>
+                           <div class="end-box-2">
+                            
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
             </div>
             <div class="box-container-set-2">
-            <div class="box-1">3</div>
-            <div class="box-1">4</div>
+            <div class="box-3">
+              <div class="card">
+                <div class="card-hearder">
+                    <div class="logo-name">
+                        <div class="card-logo-2">
+                            <img src="/img/teacher.png" alt="">
+                        </div>
+                        <div class="user">
+                            <p>User : Sayedameen_Pro</p>
+                        </div>
+                    </div>
+                   
+                    <div class="dropdown">
+                      <div class="dropdown-container">
+                        <details class="dropdown left">
+                            <summary>
+                                <span class="three-dots"></span>
+                            </summary>
+                            <ul>
+                                <li>
+                                    <div class="share-project">
+                                      <div class="icon">
+                                        <i class="fa-solid fa-share-nodes" style="color: #201aa4;"></i>
+                                      </div>
+                                      <div class="project-name">
+                                        <p>Share Project</p>
+                                      </div>
+                                    </div>
+                                </li>
+
+                                
+                                <li>
+                                  <div class="share-project">
+                                    <div class="icon">
+                                      <i class="fa-regular fa-copy" style="color: #204aa1;"></i>
+                                    </div>
+                                    <div class="project-name">
+                                      <p>Copy Project</p>
+                                    </div>
+                                  </div>
+                              </li>
+
+
+                               
+                              <li>
+                                <div class="share-project">
+                                  <div class="icon-2">
+                                    <i class="fa-solid fa-arrows-rotate" style="color: #35cc87;"></i>
+                                  </div>
+                                  <div class="project-name">
+                                    <p>Refresh&nbsp</p>
+                                  </div>
+                                </div>
+                            </li>
+
+
+                            <li>
+                              <div class="share-project">
+                                <div class="icon">
+                                  <i class="fa-solid fa-right-to-bracket" style="color: #201aa4;"></i>
+                                </div>
+                                <div class="project-name">
+                                  <p>Logs</p>
+                                </div>
+                              </div>
+                          </li>
+                               
+                               
+                          
+
+                        <li>
+                          <div class="share-project">
+                            <div class="icon">
+                              <i class="fa-regular fa-pen-to-square" style="color: #201aa4;"></i>
+                            </div>
+                            <div class="project-name">
+                              <p>Edit</p>
+                            </div>
+                          </div>
+                      </li>
+
+
+                      <li>
+                        <div class="share-project">
+                          <div class="icon-1">
+                            <i class="fa-solid fa-trash-can" style="color: #e04d4d;"></i>
+                          </div>
+                          <div class="project-name">
+                            <p>Delete</p>
+                          </div>
+                        </div>
+                    </li>
+
+                            </ul>
+                        </details>
+                    </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="action">
+                        <p><i class="fa-regular fa-circle-dot" style="color: #35cc87;"></i> Running</p>
+                        <p><i class="fa-regular fa-clock"></i> 3.1Hrs</p>
+                        <!-- <hr class="horizontal"> -->
+                        <!-- <div class="action-btn">
+                            <div class="play">
+                                <div class="play-border">
+                                    <i class="fa-solid fa-forward-step" style="color: #35cc87;"></i>
+                                </div>
+                                
+                            </div>
+                            <div class="stop">
+                                <div class="stop-border">
+                                <i class="fa-solid fa-stop" style="color: #f43131;"></i>
+                            </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="description">
+                      <div class="main-dess-1">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ducimus enim corrupti </p>
+                        <div class="details">
+                          <a href="">Details <i class="fa-solid fa-chevron-right" style="color: #35cc87;"></i></a>
+                        </div>
+                      </div>
+                        <!-- <div class="partation">
+                           <div class="end-box-1">
+                            
+                           </div>
+                           <div class="end-box-2">
+                            
+                           </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="progress">
+                  <div class="packages-download">
+                    <p>Packages: <span>Downloading Packages...</span></p>
+                  </div>
+                  <div class="progress-bar">
+                    <p>60%</p>
+                    <progress class="progress-col" id="progress-bar-1" value="60" max="100">70 %</progress>
+                  </div>
+                </div>
+
+                <div class="btn-groups">
+                  <div class="stop-play">
+                    <div class="play">
+                      <div class="play-border">
+                          <i class="fa-solid fa-forward-step" style="color: #35cc87;"></i>
+                      </div>
+                  </div>
+
+                  <div class="stop">
+                    <div class="stop-border">
+                    <i class="fa-solid fa-stop" style="color: #f43131;"></i>
+                </div>
+                </div>
+                  </div>
+                  <div class="empty-div">
+                    <div class="end-box-1">
+                            
+                    </div>
+                    <div class="end-box-2">
+                     
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+            <div class="box-4">
+              <div class="card">
+                <div class="card-hearder">
+                    <div class="logo-name">
+                        <div class="card-logo-2">
+                            <img src="/img/teacher.png" alt="">
+                        </div>
+                        <div class="user">
+                            <p>User : Sayedameen_Pro</p>
+                        </div>
+                    </div>
+                   
+                    <div class="dropdown">
+                      <div class="dropdown-container">
+                        <details class="dropdown left">
+                            <summary>
+                                <span class="three-dots"></span>
+                            </summary>
+                            <ul>
+                                <li>
+                                    <div class="share-project">
+                                      <div class="icon">
+                                        <i class="fa-solid fa-share-nodes" style="color: #201aa4;"></i>
+                                      </div>
+                                      <div class="project-name">
+                                        <p>Share Project</p>
+                                      </div>
+                                    </div>
+                                </li>
+
+                                
+                                <li>
+                                  <div class="share-project">
+                                    <div class="icon">
+                                      <i class="fa-regular fa-copy" style="color: #204aa1;"></i>
+                                    </div>
+                                    <div class="project-name">
+                                      <p>Copy Project</p>
+                                    </div>
+                                  </div>
+                              </li>
+
+
+                               
+                              <li>
+                                <div class="share-project">
+                                  <div class="icon-2">
+                                    <i class="fa-solid fa-arrows-rotate" style="color: #35cc87;"></i>
+                                  </div>
+                                  <div class="project-name">
+                                    <p>Refresh&nbsp</p>
+                                  </div>
+                                </div>
+                            </li>
+
+
+                            <li>
+                              <div class="share-project">
+                                <div class="icon">
+                                  <i class="fa-solid fa-right-to-bracket" style="color: #201aa4;"></i>
+                                </div>
+                                <div class="project-name">
+                                  <p>Logs</p>
+                                </div>
+                              </div>
+                          </li>
+                               
+                               
+                          
+
+                        <li>
+                          <div class="share-project">
+                            <div class="icon">
+                              <i class="fa-regular fa-pen-to-square" style="color: #201aa4;"></i>
+                            </div>
+                            <div class="project-name">
+                              <p>Edit</p>
+                            </div>
+                          </div>
+                      </li>
+
+
+                      <li>
+                        <div class="share-project">
+                          <div class="icon-1">
+                            <i class="fa-solid fa-trash-can" style="color: #e04d4d;"></i>
+                          </div>
+                          <div class="project-name">
+                            <p>Delete</p>
+                          </div>
+                        </div>
+                    </li>
+
+                            </ul>
+                        </details>
+                    </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="action">
+                        <p><i class="fa-regular fa-circle-dot" style="color: #35cc87;"></i> Running</p>
+                        <p><i class="fa-regular fa-clock"></i> 3.1Hrs</p>
+                        <!-- <hr class="horizontal"> -->
+                        <!-- <div class="action-btn">
+                            <div class="play">
+                                <div class="play-border">
+                                    <i class="fa-solid fa-forward-step" style="color: #35cc87;"></i>
+                                </div>
+                                
+                            </div>
+                            <div class="stop">
+                                <div class="stop-border">
+                                <i class="fa-solid fa-stop" style="color: #f43131;"></i>
+                            </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="description">
+                      <div class="main-dess-1">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ducimus enim corrupti </p>
+                        <div class="details">
+                          <a href="">Details <i class="fa-solid fa-chevron-right" style="color: #35cc87;"></i></a>
+                        </div>
+                      </div>
+                        <!-- <div class="partation">
+                           <div class="end-box-1">
+                            
+                           </div>
+                           <div class="end-box-2">
+                            
+                           </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="progress">
+                  <div class="packages-download">
+                    <p>Packages: <span>Downloading Packages...</span></p>
+                  </div>
+                  <div class="progress-bar">
+                    <p>60%</p>
+                    <progress class="progress-col" id="progress-bar-1" value="60" max="100">70 %</progress>
+                  </div>
+                </div>
+
+                <div class="btn-groups">
+                  <div class="stop-play">
+                    <div class="play">
+                      <div class="play-border">
+                          <i class="fa-solid fa-forward-step" style="color: #35cc87;"></i>
+                      </div>
+                  </div>
+
+                  <div class="stop">
+                    <div class="stop-border">
+                    <i class="fa-solid fa-stop" style="color: #f43131;"></i>
+                </div>
+                </div>
+                  </div>
+                  <div class="empty-div">
+                    <div class="end-box-1">
+                            
+                    </div>
+                    <div class="end-box-2">
+                     
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
         </div>
+      </div>
     </div>
       </div>
     </div>
